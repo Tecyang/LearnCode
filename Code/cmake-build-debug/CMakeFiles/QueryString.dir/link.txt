@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/QueryString.dir/QueryString.cpp.o  -o QueryString 
