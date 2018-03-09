@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/tecyang/CLionProjects/LearnCode/Code/LearnString.cpp
+/home/tecyang/CLionProjects/LearnCode/Code/QueryNumbersInTheArray.c
 stdio.h
 -
 stdlib.h
+-
+stdbool.h
 -
 

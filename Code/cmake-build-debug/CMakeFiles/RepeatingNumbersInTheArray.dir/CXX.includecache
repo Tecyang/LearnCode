@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/tecyang/CLionProjects/LearnCode/Code/LearnString.cpp
+/home/tecyang/CLionProjects/LearnCode/Code/RepeatingNumbersInTheArray.cpp
 stdio.h
 -
 stdlib.h

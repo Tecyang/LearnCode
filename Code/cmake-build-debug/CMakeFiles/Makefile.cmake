@@ -45,5 +45,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/ReplaceSpace.dir/DependInfo.cmake"
+  "CMakeFiles/QueryNumbersInTheArray.dir/DependInfo.cmake"
+  "CMakeFiles/QueryString.dir/DependInfo.cmake"
+  "CMakeFiles/RepeatingNumbersInTheArray.dir/DependInfo.cmake"
   "CMakeFiles/LearnString.dir/DependInfo.cmake"
   )

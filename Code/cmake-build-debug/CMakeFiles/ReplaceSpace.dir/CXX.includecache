@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/tecyang/CLionProjects/LearnCode/Code/LearnString.cpp
+/home/tecyang/CLionProjects/LearnCode/Code/ReplaceSpace.cpp
 stdio.h
 -
 stdlib.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
 -
 

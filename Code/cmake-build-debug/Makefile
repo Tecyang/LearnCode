@@ -111,6 +111,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ReplaceSpace
+
+# Build rule for target.
+ReplaceSpace: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ReplaceSpace
+.PHONY : ReplaceSpace
+
+# fast build rule for target.
+ReplaceSpace/fast:
+	$(MAKE) -f CMakeFiles/ReplaceSpace.dir/build.make CMakeFiles/ReplaceSpace.dir/build
+.PHONY : ReplaceSpace/fast
+
+#=============================================================================
+# Target rules for targets named QueryNumbersInTheArray
+
+# Build rule for target.
+QueryNumbersInTheArray: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 QueryNumbersInTheArray
+.PHONY : QueryNumbersInTheArray
+
+# fast build rule for target.
+QueryNumbersInTheArray/fast:
+	$(MAKE) -f CMakeFiles/QueryNumbersInTheArray.dir/build.make CMakeFiles/QueryNumbersInTheArray.dir/build
+.PHONY : QueryNumbersInTheArray/fast
+
+#=============================================================================
+# Target rules for targets named QueryString
+
+# Build rule for target.
+QueryString: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 QueryString
+.PHONY : QueryString
+
+# fast build rule for target.
+QueryString/fast:
+	$(MAKE) -f CMakeFiles/QueryString.dir/build.make CMakeFiles/QueryString.dir/build
+.PHONY : QueryString/fast
+
+#=============================================================================
+# Target rules for targets named RepeatingNumbersInTheArray
+
+# Build rule for target.
+RepeatingNumbersInTheArray: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RepeatingNumbersInTheArray
+.PHONY : RepeatingNumbersInTheArray
+
+# fast build rule for target.
+RepeatingNumbersInTheArray/fast:
+	$(MAKE) -f CMakeFiles/RepeatingNumbersInTheArray.dir/build.make CMakeFiles/RepeatingNumbersInTheArray.dir/build
+.PHONY : RepeatingNumbersInTheArray/fast
+
+#=============================================================================
 # Target rules for targets named LearnString
 
 # Build rule for target.
@@ -150,6 +202,117 @@ LearnString.cpp.s:
 	$(MAKE) -f CMakeFiles/LearnString.dir/build.make CMakeFiles/LearnString.dir/LearnString.cpp.s
 .PHONY : LearnString.cpp.s
 
+QueryNumbersInTheArray.o: QueryNumbersInTheArray.cpp.o
+
+.PHONY : QueryNumbersInTheArray.o
+
+# target to build an object file
+QueryNumbersInTheArray.cpp.o:
+	$(MAKE) -f CMakeFiles/QueryNumbersInTheArray.dir/build.make CMakeFiles/QueryNumbersInTheArray.dir/QueryNumbersInTheArray.cpp.o
+	$(MAKE) -f CMakeFiles/LearnString.dir/build.make CMakeFiles/LearnString.dir/QueryNumbersInTheArray.cpp.o
+.PHONY : QueryNumbersInTheArray.cpp.o
+
+QueryNumbersInTheArray.i: QueryNumbersInTheArray.cpp.i
+
+.PHONY : QueryNumbersInTheArray.i
+
+# target to preprocess a source file
+QueryNumbersInTheArray.cpp.i:
+	$(MAKE) -f CMakeFiles/QueryNumbersInTheArray.dir/build.make CMakeFiles/QueryNumbersInTheArray.dir/QueryNumbersInTheArray.cpp.i
+	$(MAKE) -f CMakeFiles/LearnString.dir/build.make CMakeFiles/LearnString.dir/QueryNumbersInTheArray.cpp.i
+.PHONY : QueryNumbersInTheArray.cpp.i
+
+QueryNumbersInTheArray.s: QueryNumbersInTheArray.cpp.s
+
+.PHONY : QueryNumbersInTheArray.s
+
+# target to generate assembly for a file
+QueryNumbersInTheArray.cpp.s:
+	$(MAKE) -f CMakeFiles/QueryNumbersInTheArray.dir/build.make CMakeFiles/QueryNumbersInTheArray.dir/QueryNumbersInTheArray.cpp.s
+	$(MAKE) -f CMakeFiles/LearnString.dir/build.make CMakeFiles/LearnString.dir/QueryNumbersInTheArray.cpp.s
+.PHONY : QueryNumbersInTheArray.cpp.s
+
+QueryString.o: QueryString.cpp.o
+
+.PHONY : QueryString.o
+
+# target to build an object file
+QueryString.cpp.o:
+	$(MAKE) -f CMakeFiles/QueryString.dir/build.make CMakeFiles/QueryString.dir/QueryString.cpp.o
+.PHONY : QueryString.cpp.o
+
+QueryString.i: QueryString.cpp.i
+
+.PHONY : QueryString.i
+
+# target to preprocess a source file
+QueryString.cpp.i:
+	$(MAKE) -f CMakeFiles/QueryString.dir/build.make CMakeFiles/QueryString.dir/QueryString.cpp.i
+.PHONY : QueryString.cpp.i
+
+QueryString.s: QueryString.cpp.s
+
+.PHONY : QueryString.s
+
+# target to generate assembly for a file
+QueryString.cpp.s:
+	$(MAKE) -f CMakeFiles/QueryString.dir/build.make CMakeFiles/QueryString.dir/QueryString.cpp.s
+.PHONY : QueryString.cpp.s
+
+RepeatingNumbersInTheArray.o: RepeatingNumbersInTheArray.cpp.o
+
+.PHONY : RepeatingNumbersInTheArray.o
+
+# target to build an object file
+RepeatingNumbersInTheArray.cpp.o:
+	$(MAKE) -f CMakeFiles/RepeatingNumbersInTheArray.dir/build.make CMakeFiles/RepeatingNumbersInTheArray.dir/RepeatingNumbersInTheArray.cpp.o
+.PHONY : RepeatingNumbersInTheArray.cpp.o
+
+RepeatingNumbersInTheArray.i: RepeatingNumbersInTheArray.cpp.i
+
+.PHONY : RepeatingNumbersInTheArray.i
+
+# target to preprocess a source file
+RepeatingNumbersInTheArray.cpp.i:
+	$(MAKE) -f CMakeFiles/RepeatingNumbersInTheArray.dir/build.make CMakeFiles/RepeatingNumbersInTheArray.dir/RepeatingNumbersInTheArray.cpp.i
+.PHONY : RepeatingNumbersInTheArray.cpp.i
+
+RepeatingNumbersInTheArray.s: RepeatingNumbersInTheArray.cpp.s
+
+.PHONY : RepeatingNumbersInTheArray.s
+
+# target to generate assembly for a file
+RepeatingNumbersInTheArray.cpp.s:
+	$(MAKE) -f CMakeFiles/RepeatingNumbersInTheArray.dir/build.make CMakeFiles/RepeatingNumbersInTheArray.dir/RepeatingNumbersInTheArray.cpp.s
+.PHONY : RepeatingNumbersInTheArray.cpp.s
+
+ReplaceSpace.o: ReplaceSpace.cpp.o
+
+.PHONY : ReplaceSpace.o
+
+# target to build an object file
+ReplaceSpace.cpp.o:
+	$(MAKE) -f CMakeFiles/ReplaceSpace.dir/build.make CMakeFiles/ReplaceSpace.dir/ReplaceSpace.cpp.o
+.PHONY : ReplaceSpace.cpp.o
+
+ReplaceSpace.i: ReplaceSpace.cpp.i
+
+.PHONY : ReplaceSpace.i
+
+# target to preprocess a source file
+ReplaceSpace.cpp.i:
+	$(MAKE) -f CMakeFiles/ReplaceSpace.dir/build.make CMakeFiles/ReplaceSpace.dir/ReplaceSpace.cpp.i
+.PHONY : ReplaceSpace.cpp.i
+
+ReplaceSpace.s: ReplaceSpace.cpp.s
+
+.PHONY : ReplaceSpace.s
+
+# target to generate assembly for a file
+ReplaceSpace.cpp.s:
+	$(MAKE) -f CMakeFiles/ReplaceSpace.dir/build.make CMakeFiles/ReplaceSpace.dir/ReplaceSpace.cpp.s
+.PHONY : ReplaceSpace.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -158,10 +321,26 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... ReplaceSpace"
+	@echo "... QueryNumbersInTheArray"
+	@echo "... QueryString"
+	@echo "... RepeatingNumbersInTheArray"
 	@echo "... LearnString"
 	@echo "... LearnString.o"
 	@echo "... LearnString.i"
 	@echo "... LearnString.s"
+	@echo "... QueryNumbersInTheArray.o"
+	@echo "... QueryNumbersInTheArray.i"
+	@echo "... QueryNumbersInTheArray.s"
+	@echo "... QueryString.o"
+	@echo "... QueryString.i"
+	@echo "... QueryString.s"
+	@echo "... RepeatingNumbersInTheArray.o"
+	@echo "... RepeatingNumbersInTheArray.i"
+	@echo "... RepeatingNumbersInTheArray.s"
+	@echo "... ReplaceSpace.o"
+	@echo "... ReplaceSpace.i"
+	@echo "... ReplaceSpace.s"
 .PHONY : help
 
 

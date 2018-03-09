@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LearnString.dir/LearnString.cpp.o"
+  "CMakeFiles/LearnString.dir/QueryNumbersInTheArray.cpp.o"
   "LearnString.pdb"
   "LearnString"
 )
