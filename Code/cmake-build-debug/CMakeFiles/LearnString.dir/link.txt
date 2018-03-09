@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/LearnString.dir/LearnString.cpp.o CMakeFiles/LearnString.dir/QueryNumbersInTheArray.cpp.o  -o LearnString 

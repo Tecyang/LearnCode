@@ -1,7 +1,0 @@
-/home/tecyang/CLionProjects/LearnCode/Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/tecyang/CLionProjects/LearnCode/Code/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/tecyang/CLionProjects/LearnCode/Code/cmake-build-debug/CMakeFiles/ReplaceSpace.dir
-/home/tecyang/CLionProjects/LearnCode/Code/cmake-build-debug/CMakeFiles/QueryNumbersInTheArray.dir
-/home/tecyang/CLionProjects/LearnCode/Code/cmake-build-debug/CMakeFiles/QueryString.dir
-/home/tecyang/CLionProjects/LearnCode/Code/cmake-build-debug/CMakeFiles/RepeatingNumbersInTheArray.dir
-/home/tecyang/CLionProjects/LearnCode/Code/cmake-build-debug/CMakeFiles/LearnString.dir
